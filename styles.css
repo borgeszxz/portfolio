@@ -1,0 +1,43 @@
+.img-hover-effect:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.icon-hover-effect {
+    position: relative;
+    border: 2px solid #e74c3c;
+    color: #e74c3c;
+    box-shadow: 0 0 5px #e74c3c, 0 0 10px #e74c3c;
+    transition: all 0.3s ease;
+}
+
+.icon-hover-effect:hover {
+    box-shadow: 0 0 15px #e74c3c, 0 0 20px #e74c3c;
+    background-color: #e74c3c;
+    color: #fff;
+}
+.icon-hover-effect {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.icon-hover-effect:hover {
+    transform: scale(1.3); 
+}
+
+.icon-hover-effect:hover {
+    box-shadow: 0 0 15px #e74c3c, 0 0 20px #e74c3c;
+}
+
+@keyframes darkGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+body {
+    background: linear-gradient(270deg, #0a0a0a, #141414, #1a1a1a, #0a0a0a);
+    background-size: 400% 400%;
+    animation: darkGradient 15s ease infinite;
+}
+
+
